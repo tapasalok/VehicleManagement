@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VehicleManagement</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loginHeadingText">Vehicle Management</string>
+    <string name="poweredBy">Powered by: DP Automation</string>
+    <string name="shareIt">Share Sheet</string>
+
+</resources>
