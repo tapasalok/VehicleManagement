@@ -14,11 +14,18 @@
         android:textColor="#ffffff"
         android:textSize="40px" />
 
-    <!-- <Button
+    <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Share Sheet" /> -->
+        android:text="Create Sheet" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Share Sheet" />
 
 </LinearLayout>

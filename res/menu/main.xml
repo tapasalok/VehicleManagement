@@ -4,8 +4,11 @@
     tools:context="com.example.vehiclemanagement.MainActivity" >
 
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"/>
+        android:id="@+id/action_excel_sheet_create"
+        android:title="@string/action_create_excel_sheet"/>
+    
+    <item
+        android:id="@+id/action_excel_sheet_share"
+        android:title="@string/action_share_excel_sheet"/>
 
 </menu>

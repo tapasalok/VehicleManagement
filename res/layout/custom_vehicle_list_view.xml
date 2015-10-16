@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VehicleListingFragment" >
+    
+    <TextView
+	    android:id="@+id/noRegisteredVehicle"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="@string/no_registered_vehicle"
+	    android:layout_gravity="center_vertical"
+	    android:gravity="center"
+	    android:textStyle="italic"
+	    android:textSize="20dp"
+	    android:visibility="gone" />
+    
+    <ListView
+            android:id="@+id/vehicle_columnName_listing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+    </ListView>
+    <ListView
+            android:id="@+id/vehicle_listing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+    </ListView>
+    
+</LinearLayout>
